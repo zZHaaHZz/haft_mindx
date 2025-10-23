@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1440px;
+    height: 1024px;
+    padding: 40px;
+}
+.header{
+    width: 1360px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 151px;
+    height: 54px;
+    padding: 5px;
+}
+.menu{
+    margin-left: -200px;
+    width: 499px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h1{
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 10px;
+}
+.right{
+    
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    align-items: center;
+}
+.right img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.right h3{
+    font-size: 24px;
+    color: #7200B8;
+}
+.main{
+    width: 1360px;
+    height: 783px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.siderbar{
+    padding-top: 58px;
+    padding-left: 25px;
+    width: 300px;
+    height: 783px;
+    border-radius: 10px;
+    background-color: black;
+}
+.menu-siderbar{
+    width: 180px;
+    height: 390px;
+}
+.select-nav{
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    color: #FFF;
+}
+.active-nav{
+    color: #FFF;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background: 20px;
+    border-radius: 10px;
+    background-color: #7200B8;
+}
+.log-out{
+    margin-top: 150px;
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    color: #FFF;
+}
+
+.main-content{
+    margin-left: 46px;
+    width: 100%;
+    height: 100%;
+}
+.head-main-content{
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameTag{
+    width: 158px;
+    height: 56px;
+    font-size: 20px;
+}
+.review{
+    width: 226px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 13px 0px 10px 30px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.under-head{
+    width: 915px;
+    height: 96px;
+    
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1{
+    width: 233px;
+    height: 96px;
+}
+.box2{
+    width: 284px;
+    height: 96px;
+}
+.box3{
+    width: 318px;
+    height: 96px;
+}
+.box h1{
+    font-size: 24px;
+    color: #FFF;
+    align-items: center;
+}
+.box{
+    display: flex;
+    background-color: black;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 30px 20px 30px 30px;
+}
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 224px;
+    height: 65px;
+}
+.main-main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box4{
+    padding-top: 134px;
+    width: 345px;
+    height: 312px;
+    font-size: 36px;
+    padding-left: 50px;
+    
+}
+.box6{
+    width: 300px;
+    height: 500px;
+    padding: 19px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box7{
+    margin-left: 200px;
+    width: 412px;
+    height: 96px;
+}
+.main-main-content{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+.bot-main-content{
+    width: 100%;
+    height: 96px;
+    margin-top: -5px;
+}
+.chatnow{
+    position: absolute;
+    width: 120px;
+    height: 110px;
+    right: 0px;
+    bottom: -30px;
+    color: #7200B880;
+    padding-top: 10px;
+    text-align: center;
+}
+.chatnow i{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.fff{
+    width: 151px;
+    height: 700px;
+    background-color: #130EFF1A;
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    right: 400px;
+    transform: rotate(40deg);
+}
+.ffff{
+    width: 151px;
+    height: 700px;
+    background-color: #130EFF1A;
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    right: 800px;
+    transform: rotate(-20deg);
+}
+.fffff{
+    width: 151px;
+    height: 700px;
+    background-color: #130EFF1A;
+    position: absolute;
+    z-index: -1;
+    bottom: -50px;
+    right: 200px;
+    transform: rotate(70deg);
+}
