@@ -136,6 +136,7 @@ body{
     padding: 13px 0px 10px 30px;
     font-size: 20px;
     border: 1px solid black;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.3);
 }
 
 .under-head{
@@ -150,10 +151,13 @@ body{
 .box1{
     width: 233px;
     height: 96px;
+    padding-left: 20px;
+    padding-top: 60px;
 }
 .box2{
     width: 284px;
     height: 96px;
+    padding-left: 40px;
 }
 .box3{
     width: 318px;
@@ -163,6 +167,7 @@ body{
     font-size: 24px;
     color: #FFF;
     align-items: center;
+    width: auto;
 }
 .box{
     display: flex;
@@ -172,7 +177,7 @@ body{
     padding: 30px 20px 30px 30px;
 }
 .box p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     width: 224px;
     height: 65px;
@@ -184,13 +189,24 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.box4{
+.box4-1{
     padding-top: 134px;
     width: 345px;
     height: 312px;
     font-size: 36px;
-    padding-left: 50px;
-    
+    padding-left: 70px;
+    padding-top: 150px;
+    text-align: center;
+    box-shadow: 8px 8px 3px rgba(0,0,0,0.3);
+}
+.box4-2{
+    padding-top: 134px;
+    width: 345px;
+    height: 312px;
+    font-size: 36px;
+    padding-left: 30px;
+    text-align: center;
+    box-shadow: 8px 8px 3px rgba(0,0,0,0.3);
 }
 .box6{
     width: 300px;
@@ -200,11 +216,15 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 8px 8px 3px rgba(0,0,0,0.3);
+    padding-bottom: 101px;
 }
 .box7{
     margin-left: 200px;
     width: 412px;
     height: 96px;
+    box-shadow: 8px 8px 3px rgba(0,0,0,0.3);
+    padding-left: 100px;
 }
 .main-main-content{
     width: 100%;
@@ -237,26 +257,26 @@ body{
     position: absolute;
     z-index: -1;
     top: 50px;
-    right: 400px;
+    right: 700px;
     transform: rotate(40deg);
 }
 .ffff{
     width: 151px;
-    height: 700px;
+    height: 800px;
     background-color: #130EFF1A;
     position: absolute;
     z-index: -1;
     top: 50px;
-    right: 800px;
-    transform: rotate(-20deg);
+    left: 400px;
+    transform: rotate(-40deg);
 }
 .fffff{
     width: 151px;
-    height: 700px;
+    height: 600px;
     background-color: #130EFF1A;
     position: absolute;
     z-index: -1;
     bottom: -50px;
-    right: 200px;
-    transform: rotate(70deg);
+    right: 450px;
+    transform: rotate(50deg);
 }
